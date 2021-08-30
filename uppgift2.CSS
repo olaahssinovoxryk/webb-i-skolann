@@ -1,0 +1,21 @@
+body { 
+    background-color:lightgoldenrodyellow;
+}
+p{
+    color:darkolivegreen;
+}
+h1{
+    font-family: Arial; font-size: 22px; color:darkolivegreen;
+}
+.program{
+    text-align: center; background-color: lightpink; color:darkmagenta;
+}
+.dator{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+.mig{
+    border:double;
+}
