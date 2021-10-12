@@ -1,0 +1,23 @@
+th,td{
+    border: 1px solid black;
+    padding: 50px;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 35%;
+}
+.blue{
+    background-color: #3c99dc;
+}
+.red{
+    background-color: #c62828;
+}.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: #76ff03;
+}
