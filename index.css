@@ -1,0 +1,54 @@
+body{
+    background-image: url("pink.jpeg");
+    background-size: cover;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-rows: 80px 100px auto 150px;
+}
+section, footer{
+    background-color: lightyellow; /*rgb(89, 206, 151) fungerar också*/
+    color:mediumorchid;
+    border-radius: 25px;
+}
+h2{
+    text-decoration: underline wavy;
+}
+img{
+    height: 200px;
+    /*width: 200px; bilderna blev konstiga så den ska bort*/
+}
+#gott img{
+    width: 250px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: darkviolet;
+}
+a:focus, a:hover{
+    color: red;
+}
+a:active{
+    color:midnightblue;
+}
+#kdrama main, #gott main{
+    text-align: left;
+}
+section a{
+    text-decoration: none;
+}
+table, th, td{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: violet;
+}
+tr:nth-child(even){
+    background-color: tomato;
+}
